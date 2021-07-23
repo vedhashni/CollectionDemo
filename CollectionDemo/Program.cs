@@ -11,7 +11,25 @@ namespace CollectionDemo
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to Collection Demo Program");
-            List.ListDemo();
+
+            int option = Convert.ToInt32(Console.ReadLine());
+
+            switch (option)
+            {
+
+                case 1:
+                    List.ListDemo();
+                    break;
+
+                case 2:
+                    Stack.StackDemo();
+                    break;
+
+                default:
+                    break;
+
+
+            }
         }
     }
 }
