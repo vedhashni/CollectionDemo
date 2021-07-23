@@ -33,6 +33,10 @@ namespace CollectionDemo
                     Set.SetDemo();
                     break;
 
+                case 5:
+                    Dictionary.DictionaryDemo();
+                    break;
+
                 default:
                     break;
 
