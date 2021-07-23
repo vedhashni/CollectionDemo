@@ -29,6 +29,10 @@ namespace CollectionDemo
                     Queue.QueueDemo();
                     break;
 
+                case 4:
+                    Set.SetDemo();
+                    break;
+
                 default:
                     break;
 
