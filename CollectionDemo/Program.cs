@@ -25,6 +25,10 @@ namespace CollectionDemo
                     Stack.StackDemo();
                     break;
 
+                case 3:
+                    Queue.QueueDemo();
+                    break;
+
                 default:
                     break;
 
